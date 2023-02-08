@@ -35,5 +35,13 @@
   "bugs": {
     "url": "https://github.com/Dannyb0o0y/19-PWA-Text-Editor/issues"
   },
-  "homepage": "https://github.com/Dannyb0o0y/19-PWA-Text-Editor#readme"
+  "homepage":{ "https://github.com/Dannyb0o0y/19-PWA-Text-Editor#readme"
+},
+  "scripts": {
+    "heroku-postbuild": "npm run build"
+},
+"engines": {
+    "npm": "5.6.0",
+    "node": "8.10.0"
+  }
 }
